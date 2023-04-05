@@ -5,7 +5,7 @@ var nome: String = "Bruna" //variavel com definicao --nao sera alterado depois
 var idade = 32
 
 //constantes para nao alterar mais o valor
-let idadeInalterada = 30
+let idadeInalterada = 32
 
 //printando o codigo
 print("O meu nome: \(nome)")
