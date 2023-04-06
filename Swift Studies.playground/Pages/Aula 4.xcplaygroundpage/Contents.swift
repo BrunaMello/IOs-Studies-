@@ -35,7 +35,7 @@ print(valor)
 //opcionais (?) nil == null
 var telefone: String?
 telefone = "99999" //vai retornar dentro do Optional()
-print(telefone)
+print(telefone ?? <#default value#>)
 
 //desembrulhando a variavel nao recomendado
 print(telefone!)
@@ -131,6 +131,6 @@ func dividirConta(_ numeroPessoas: Int, _ totalConta: Double) {
     print(total)
 }
 
-dividirConta(4, 120)
+dividirConta(2, 120)
 
 
