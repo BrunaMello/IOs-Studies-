@@ -6,7 +6,9 @@
         <page name='Aula 3'/>
         <page name='Aula 4'/>
         <page name='Aula 5'/>
-        <page name='OO Aula 1'/>
+        <page name='OO Aula 1 - Classes e Structs'/>
         <page name='OO Aula 1 - Exercicio'/>
+        <page name='OO Aula 2 - Heranca e Polimorfismo'/>
+        <page name='OO Aula 2 - Exercicio'/>
     </pages>
 </playground>
