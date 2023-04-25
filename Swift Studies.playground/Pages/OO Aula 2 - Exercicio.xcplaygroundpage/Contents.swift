@@ -10,11 +10,25 @@
 */
 class Empregado {
     var nome: String
-    var salario: Double
+    var salario: Double {
+        willSet {
+            if newValue > salario {
+                print("Parabens, voce recebeu uma promocao")
+            }else if newValue < salario {
+                print("Novo salario nao pode ser menor que o anterior")
+            } else {
+                print("Parece que nao houve promocao dessa vez")
+            }
+        }
+    }
     
     init(nome: String, salario: Double) {
         self.nome = nome
         self.salario = salario
+    }
+    
+    func alterarSalario(_ novoSalario: Double){
+        salario = novoSalario
     }
 }
 
@@ -73,4 +87,6 @@ func verificaTipo(_ empregado: Empregado) {
     
 
 }
+
+empregadoJohn.alterarSalario(3000)
 
